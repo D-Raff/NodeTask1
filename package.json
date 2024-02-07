@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index",
     "dev": "nodemon",
+    "gitAdd": "git add . && git commit -m 'updates' && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
